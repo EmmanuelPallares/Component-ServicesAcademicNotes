@@ -1,2 +1,4 @@
 <h1>Este es el componente de app Padre</h1>
-<app-img></app-img>
+
+<input title="input" type="text" [(ngModel)]="nombre" />
+<app-img [nombre]="nombre"></app-img>
